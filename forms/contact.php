@@ -14,7 +14,7 @@ $text .= "Email: ".$email."\n";
 $text .= "Subject: ".$subject."\n";
 $text .= "Message: ".$message."\n";
 
-  if(mail($email,"Contact Message from kashifali.me",$text)){
+  if(mail("kashif@kashifali.me","Contact Message from kashifali.me",$text)){
     $response["success"] = true;
   }
 
